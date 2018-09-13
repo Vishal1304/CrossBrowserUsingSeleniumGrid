@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-13T18:03:04Z" name="Suite" finished-at="2018-09-13T18:04:49Z" duration-ms="104470">
+    <groups>
+    </groups>
+    <test started-at="2018-09-13T18:03:04Z" name="IETest" finished-at="2018-09-13T18:04:25Z" duration-ms="80288">
+      <class name="com.project.crossbrowser.CrossBrowsertesting">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.project.crossbrowser.CrossBrowsertesting@2638011]" started-at="2018-09-13T18:03:04Z" name="setup" finished-at="2018-09-13T18:03:51Z" duration-ms="46539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.project.crossbrowser.CrossBrowsertesting@2638011]" started-at="2018-09-13T18:03:51Z" name="login" finished-at="2018-09-13T18:04:25Z" duration-ms="33492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.project.crossbrowser.CrossBrowsertesting -->
+    </test> <!-- IETest -->
+    <test started-at="2018-09-13T18:03:04Z" name="ChromeTest" finished-at="2018-09-13T18:04:49Z" duration-ms="104470">
+      <class name="com.project.crossbrowser.CrossBrowsertesting">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.project.crossbrowser.CrossBrowsertesting@445b295b]" started-at="2018-09-13T18:03:04Z" name="setup" finished-at="2018-09-13T18:03:47Z" duration-ms="42134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.project.crossbrowser.CrossBrowsertesting@445b295b]" started-at="2018-09-13T18:03:47Z" name="login" finished-at="2018-09-13T18:04:49Z" duration-ms="62296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.project.crossbrowser.CrossBrowsertesting -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
